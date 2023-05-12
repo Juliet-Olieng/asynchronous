@@ -38,23 +38,7 @@ function getUserData(userId) {
 // You have an asynchronous function performTask() that returns a Promise.
 //The Promise resolves if the task is successful and rejects if there's an error.
 //Write a function that calls performTask() and logs a custom success message if the task is successful, and a custom error message if there's an error.
-// let task1=true
-// let promise=new Promise((resolves,rejects)=>{
-//     if(task1){
-//         setTimeout(()=>{resolves("task1 is successful")},3000)
-//     }
-//     else{
-//         setTimeout(()=>{rejects(new Error())},3000)
-
-//     }
-    
-// });
-// const performTask=async()=>{
-//     let results=await promise;
-//     console.log({results}) 
-// }
-
-// performTask()
+// 
 let performtask=true
 let promise=new Promise(function(resolve,reject){
 if(performtask){
@@ -69,11 +53,4 @@ const person= async()=>{
   console.log({results});
 }
 person()
-// .then(()=>{
-//   return("congratulations")
-// }).catch(()=>{
-// return("try again next time");
-// }).finally(()=>{
-//     return("atleast i attempted");
-// })
-// console.log({promise})
+
